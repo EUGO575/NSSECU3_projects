@@ -1,5 +1,0 @@
-All files must be in same directory/folder
-
-1. Run generate_yara, it should create rules_v1.yar
-2. Indicate the directory you want to scan in gemini_scan.py
-3. Check results in gemini_scan_results.csv
