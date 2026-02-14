@@ -1,0 +1,214 @@
+File_Path,File_Size,Rule,Description
+C:\Users\win11user\Desktop\File\File001,10768,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File002,556,Suspect_Group_File002,Matches File002
+C:\Users\win11user\Desktop\File\File003,1855,Suspect_Group_File003,Matches File003
+C:\Users\win11user\Desktop\File\File004,149,Suspect_Group_File004,Matches File004
+C:\Users\win11user\Desktop\File\File005,2560,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File006,4319474,Suspect_Group_File006,Matches File006 (ZIP archive)
+C:\Users\win11user\Desktop\File\File007,1013332,Suspect_Group_File007,Matches File007 (ZIP archive)
+C:\Users\win11user\Desktop\File\File008,1617304,Suspect_Group_File008,Matches File008 (PNG image)
+C:\Users\win11user\Desktop\File\File009,1726586,Suspect_Group_File009,Matches File009 (PNG image)
+C:\Users\win11user\Desktop\File\File010,4155280,Suspect_Group_File010,Matches File010 (ZIP archive)
+C:\Users\win11user\Desktop\File\File011,12996644,Suspect_Group_File011,Matches File011 (ZIP archive)
+C:\Users\win11user\Desktop\File\File012,28659,Suspect_Group_File012,Matches File012 (ZIP archive)
+C:\Users\win11user\Desktop\File\File013,814,Suspect_Group_File013,Matches File013
+C:\Users\win11user\Desktop\File\File014,3050393,Suspect_Group_File014,Matches File014 (ZIP archive)
+C:\Users\win11user\Desktop\File\File015,164,Suspect_Group_File015,Matches File015
+C:\Users\win11user\Desktop\File\File016,87,Suspect_Group_File016,Matches File016
+C:\Users\win11user\Desktop\File\File017,4810789,Suspect_Group_File017,Matches File017 (ZIP archive)
+C:\Users\win11user\Desktop\File\File018,407134,Suspect_Group_File018,Matches File018 (PDF)
+C:\Users\win11user\Desktop\File\File019,1651234,Suspect_Group_File019,Matches File019 (PNG)
+C:\Users\win11user\Desktop\File\File020,38102,Suspect_Group_File020,Matches File020
+C:\Users\win11user\Desktop\File\File021,35182,Suspect_Group_File021,Matches File021
+C:\Users\win11user\Desktop\File\File022,185443,Suspect_Group_File022,Matches File022 (PDF)
+C:\Users\win11user\Desktop\File\File023,686849,Suspect_Group_File023,Matches File023 (ID3)
+C:\Users\win11user\Desktop\File\File024,3072,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File025,23832,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File026,35821,Suspect_Group_File026,Matches File026
+C:\Users\win11user\Desktop\File\File027,3584,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File028,109,Suspect_Group_File028,Matches File028
+C:\Users\win11user\Desktop\File\File029,273,Suspect_Group_File029,Matches File029
+C:\Users\win11user\Desktop\File\File030,5379567,Suspect_Group_File030,Matches File030 (ZIP archive)
+C:\Users\win11user\Desktop\File\File031,59159,Suspect_Group_File031,Matches File031 (ZIP archive)
+C:\Users\win11user\Desktop\File\File032,176259,Suspect_Group_File032,Matches File032 (ZIP archive)
+C:\Users\win11user\Desktop\File\File033,31332,Suspect_Group_File033,Matches File033 (ZIP archive)
+C:\Users\win11user\Desktop\File\File034,77,Suspect_Group_File034,Matches File034
+C:\Users\win11user\Desktop\File\File035,3097388,Suspect_Group_File035,Matches File035 (ZIP archive)
+C:\Users\win11user\Desktop\File\File036,1417519,Suspect_Group_File036,Matches File036 (PNG)
+C:\Users\win11user\Desktop\File\File037,266343,Suspect_Group_File037,Matches File037 (ZIP archive)
+C:\Users\win11user\Desktop\File\File038,5125758,Suspect_Group_File038,Matches File038 (CD)
+C:\Users\win11user\Desktop\File\File039,608,Suspect_Group_File039,Matches File039
+C:\Users\win11user\Desktop\File\File040,168,Suspect_Group_File040,Matches File040
+C:\Users\win11user\Desktop\File\File041,1640375,Suspect_Group_File041,Matches File041 (PNG)
+C:\Users\win11user\Desktop\File\File042,11280,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File044,229,Suspect_Group_File044,Matches File044
+C:\Users\win11user\Desktop\File\File045,137878,Suspect_Group_File045,Matches File045 (JPEG)
+C:\Users\win11user\Desktop\File\File046,80947,Suspect_Group_File046,Matches File046 (MZ)
+C:\Users\win11user\Desktop\File\File047,1082258,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File048,831,Suspect_Group_File048,Matches File048
+C:\Users\win11user\Desktop\File\File049,1804,Suspect_Group_File049,Matches File049
+C:\Users\win11user\Desktop\File\File050,86,Suspect_Group_File050,Matches File050
+C:\Users\win11user\Desktop\File\File051,716249,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File052,146273,Suspect_Group_File052,Matches File052 (JPEG)
+C:\Users\win11user\Desktop\File\File053,173909,Suspect_Group_File053,Matches File053 (JPEG)
+C:\Users\win11user\Desktop\File\File054,628,Suspect_Group_File054,Matches File054
+C:\Users\win11user\Desktop\File\File055,844097,Suspect_Group_File055,Matches File055 (ZIP archive - PowerPoint)
+C:\Users\win11user\Desktop\File\File056,340390,Suspect_Group_File056,Matches File056 (ZIP archive)
+C:\Users\win11user\Desktop\File\File057,691,Suspect_Group_File057,Matches File057
+C:\Users\win11user\Desktop\File\File058,23112,Suspect_Group_File058,Matches File058
+C:\Users\win11user\Desktop\File\File059,1720207,Suspect_Group_File059,Matches File059 (PNG)
+C:\Users\win11user\Desktop\File\File060,3072,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File061,106,Suspect_Group_File061,Matches File061
+C:\Users\win11user\Desktop\File\File062,11272,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File063,1962050,Suspect_Group_File063,Matches File063 (ID3)
+C:\Users\win11user\Desktop\File\File064,2138,Suspect_Group_File064,Matches File064
+C:\Users\win11user\Desktop\File\File065,756,Suspect_Group_File065,Matches File065
+C:\Users\win11user\Desktop\File\File066,3259060,Suspect_Group_File066,Matches File066 (PDF)
+C:\Users\win11user\Desktop\File\File067,366608,Suspect_Group_File067,Matches File067 (MZ variant)
+C:\Users\win11user\Desktop\File\File068,1485481,Suspect_Group_File068,Matches File068 (PNG)
+C:\Users\win11user\Desktop\File\File069,170993,Suspect_Group_File069,Matches File069 (PNG/JPEG hybrid)
+C:\Users\win11user\Desktop\File\File070,1645439,Suspect_Group_File070,Matches File070 (PNG)
+C:\Users\win11user\Desktop\File\File071,11792,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File072,1655833,Suspect_Group_File072,Matches File072 (PNG)
+C:\Users\win11user\Desktop\File\File073,157801,Suspect_Group_File073,Matches File073 (JPEG)
+C:\Users\win11user\Desktop\File\File074,7213107,Suspect_Group_File074,Matches File074 (ZIP archive)
+C:\Users\win11user\Desktop\File\File075,341331,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File077,603,Suspect_Group_File077,Matches File077
+C:\Users\win11user\Desktop\File\File078,160610,Suspect_Group_File078,Matches File078 (JPEG)
+C:\Users\win11user\Desktop\File\File079,339655,Suspect_Group_File079,Matches File079 (MZ variant)
+C:\Users\win11user\Desktop\File\File080,11792,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File081,3072,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File082,147,Suspect_Group_File082,Matches File082
+C:\Users\win11user\Desktop\File\File083,124,Suspect_Group_File083,Matches File083
+C:\Users\win11user\Desktop\File\File084,417316,Suspect_Group_File084,Matches File084 (PDF)
+C:\Users\win11user\Desktop\File\File085,406205,Suspect_Group_File085,Matches File085 (ZIP archive - .rels)
+C:\Users\win11user\Desktop\File\File086,677,Suspect_Group_File086,Matches File086
+C:\Users\win11user\Desktop\File\File087,288249,Suspect_Group_File087,Matches File087 (ZIP archive)
+C:\Users\win11user\Desktop\File\File088,100,Suspect_Group_File088,Matches File088
+C:\Users\win11user\Desktop\File\File089,180248,Suspect_Group_File089,Matches File089 (JPEG)
+C:\Users\win11user\Desktop\File\File090,169745,Suspect_Group_File090,Matches File090 (JPEG)
+C:\Users\win11user\Desktop\File\File091,494,Suspect_Group_File091,Matches File091
+C:\Users\win11user\Desktop\File\File092,412847,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File093,3038333,Suspect_Group_File093,Matches File093 (ZIP archive)
+C:\Users\win11user\Desktop\File\File094,62950,Suspect_Group_File094,Matches File094 (ZIP archive)
+C:\Users\win11user\Desktop\File\File095,259805,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File096,187180,Suspect_Group_File096,Matches File096 (ZIP archive)
+C:\Users\win11user\Desktop\File\File097,132678,Suspect_Group_File097,Matches File097 (JPEG)
+C:\Users\win11user\Desktop\File\File098,1684054,Suspect_Group_File098,Matches File098 (PNG)
+C:\Users\win11user\Desktop\File\File099,352,Suspect_Group_File099,Matches File099
+C:\Users\win11user\Desktop\File\File100,27963,Suspect_Group_File100,Matches File100 (ZIP archive)
+C:\Users\win11user\Desktop\File\File101,12816,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File102,196042,Suspect_Group_File102,Matches File102 (RIFF WAVE)
+C:\Users\win11user\Desktop\File\File103,7474390,Suspect_Group_File103,Matches File103 (PDF)
+C:\Users\win11user\Desktop\File\File104,1286316,Suspect_Group_File104,Matches File104 (ZIP archive)
+C:\Users\win11user\Desktop\File\File105,1426547,Suspect_Group_File105,Matches File105 (PNG)
+C:\Users\win11user\Desktop\File\File106,28944,Suspect_Group_File106,Matches File106
+C:\Users\win11user\Desktop\File\File107,142129,Suspect_Group_File107,Matches File107 (JPEG)
+C:\Users\win11user\Desktop\File\File108,1544836,Suspect_Group_File108,Matches File108 (PNG)
+C:\Users\win11user\Desktop\File\File109,556987,Suspect_Group_File109,Matches File109 (RIFF WAVE)
+C:\Users\win11user\Desktop\File\File110,2828,Suspect_Group_File110,Matches File110
+C:\Users\win11user\Desktop\File\File111,146438,Suspect_Group_File111,Matches File111 (ZIP archive)
+C:\Users\win11user\Desktop\File\File112,41,Suspect_Group_File112,Matches File112
+C:\Users\win11user\Desktop\File\File113,160547,Suspect_Group_File113,Matches File113 (JPEG)
+C:\Users\win11user\Desktop\File\File114,527117,Suspect_Group_File114,Matches File114 (PDF)
+C:\Users\win11user\Desktop\File\File115,1063014,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File116,694240,Suspect_Group_File116,Matches File116 (ZIP archive)
+C:\Users\win11user\Desktop\File\File117,64531,Suspect_Group_File117,Matches File117 (ZIP archive)
+C:\Users\win11user\Desktop\File\File118,1080656,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File119,555,Suspect_Group_File119,Matches File119
+C:\Users\win11user\Desktop\File\File120,572,Suspect_Group_File120,Matches File120
+C:\Users\win11user\Desktop\File\File121,345850,Suspect_Group_File121,Matches File121 (ZIP archive)
+C:\Users\win11user\Desktop\File\File123,521414,Suspect_Group_File123,Matches File123 (PDF)
+C:\Users\win11user\Desktop\File\File124,173180,Suspect_Group_File124,Matches File124 (JPEG)
+C:\Users\win11user\Desktop\File\File125,1591997,Suspect_Group_File125,Matches File125 (PNG)
+C:\Users\win11user\Desktop\File\File126,1502871,Suspect_Group_File126,Matches File126 (PNG)
+C:\Users\win11user\Desktop\File\File127,154510,Suspect_Group_File127,Matches File127 (JPEG)
+C:\Users\win11user\Desktop\File\File128,87,Suspect_Group_File128,Matches File128
+C:\Users\win11user\Desktop\File\File129,217395,Suspect_Group_File129,Matches File129 (PDF)
+C:\Users\win11user\Desktop\File\File130,100153,Suspect_Group_File130,Matches File130 (ZIP archive)
+C:\Users\win11user\Desktop\File\File131,26769,Suspect_Group_File131,Matches File131 (ZIP archive)
+C:\Users\win11user\Desktop\File\File132,588152,Suspect_Group_File132,Matches File132 (PDF)
+C:\Users\win11user\Desktop\File\File133,159149,Suspect_Group_File133,Matches File133 (JPEG)
+C:\Users\win11user\Desktop\File\File134,744699,Suspect_Group_File134,Matches File134 (ZIP archive)
+C:\Users\win11user\Desktop\File\File135,5765224,Suspect_Group_File135,Matches File135 (PDF)
+C:\Users\win11user\Desktop\File\File136,1809714,Suspect_Group_File136,Matches File136 (PNG)
+C:\Users\win11user\Desktop\File\File137,1359,Suspect_Group_File137,Matches File137
+C:\Users\win11user\Desktop\File\File138,663177,Suspect_Group_File138,Matches File138 (PDF)
+C:\Users\win11user\Desktop\File\File139,168,Suspect_Group_File139,Matches File139
+C:\Users\win11user\Desktop\File\File140,157962,Suspect_Group_File140,Matches File140 (JPEG)
+C:\Users\win11user\Desktop\File\File141,472874,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File142,2693126,Suspect_Group_File142,Matches File142 (ZIP archive - PowerPoint)
+C:\Users\win11user\Desktop\File\File143,1635658,Suspect_Group_File143,Matches File143 (PNG)
+C:\Users\win11user\Desktop\File\File144,2490902,Suspect_Group_File144,Matches File144 (ZIP archive)
+C:\Users\win11user\Desktop\File\File145,82840,Suspect_Group_File145,Matches File145 (ZIP archive)
+C:\Users\win11user\Desktop\File\File146,3072,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File147,156,Suspect_Group_File147,Matches File147
+C:\Users\win11user\Desktop\File\File148,315392,Suspect_Group_File148,Matches File148 (MZ variant)
+C:\Users\win11user\Desktop\File\File150,955283,Suspect_Group_File150,Matches File150 (ZIP archive)
+C:\Users\win11user\Desktop\File\File151,4723372,Suspect_Group_File151,Matches File151 (ZIP archive)
+C:\Users\win11user\Desktop\File\File152,151135,Suspect_Group_File152,Matches File152 (JPEG)
+C:\Users\win11user\Desktop\File\File154,22534,Suspect_Group_File154,Matches File154
+C:\Users\win11user\Desktop\File\File155,301568,Suspect_Group_File155,Matches File155 (MZ variant)
+C:\Users\win11user\Desktop\File\File156,347444,Suspect_Group_File156,Matches File156 (PDF)
+C:\Users\win11user\Desktop\File\File157,10483,Suspect_Group_File157,Matches File157
+C:\Users\win11user\Desktop\File\File158,631,Suspect_Group_File158,Matches File158
+C:\Users\win11user\Desktop\File\File159,317088,Suspect_Group_File159,Matches File159 (MZ variant)
+C:\Users\win11user\Desktop\File\File160,4096,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File161,50971,Suspect_Group_File161,Matches File161 (ZIP archive - .rels)
+C:\Users\win11user\Desktop\File\File162,28514,Suspect_Group_File162,Matches File162 (ZIP archive)
+C:\Users\win11user\Desktop\File\File163,174733,Suspect_Group_File163,Matches File163 (JPEG)
+C:\Users\win11user\Desktop\File\File164,12440,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File165,696,Suspect_Group_File165,Matches File165
+C:\Users\win11user\Desktop\File\File166,3072,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File167,1233,Suspect_Group_File167,Matches File167
+C:\Users\win11user\Desktop\File\File168,7815,Suspect_Group_File168,Matches File168
+C:\Users\win11user\Desktop\File\File169,781,Suspect_Group_File169,Matches File169
+C:\Users\win11user\Desktop\File\File170,6138710,Suspect_Group_File170,Matches File170 (ZIP archive)
+C:\Users\win11user\Desktop\File\File171,1011368,Suspect_Group_File171,Matches File171 (ZIP archive)
+C:\Users\win11user\Desktop\File\File172,17097,Suspect_Group_File172,Matches File172
+C:\Users\win11user\Desktop\File\File173,19232,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File174,113,Suspect_Group_File174,Matches File174
+C:\Users\win11user\Desktop\File\File175,829,Suspect_Group_File175,Matches File175
+C:\Users\win11user\Desktop\File\File176,3072,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File177,12064,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File178,608,Suspect_Group_File178,Matches File178
+C:\Users\win11user\Desktop\File\File179,9093,Suspect_Group_File179,Matches File179
+C:\Users\win11user\Desktop\File\File180,2071847,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File182,490858,Suspect_Group_File182,Matches File182 (PDF)
+C:\Users\win11user\Desktop\File\File183,34148,Suspect_Group_File183,Matches File183 (ZIP archive)
+C:\Users\win11user\Desktop\File\File184,1660287,Suspect_Group_File184,Matches File184 (PNG)
+C:\Users\win11user\Desktop\File\File185,870117,Suspect_Group_File185,Matches File185 (ZIP archive)
+C:\Users\win11user\Desktop\File\File186,2176,Suspect_Group_File186,Matches File186
+C:\Users\win11user\Desktop\File\File187,23570,Suspect_Group_File187,Matches File187 (ZIP archive)
+C:\Users\win11user\Desktop\File\File188,10470,Suspect_Group_File188,Matches File188
+C:\Users\win11user\Desktop\File\File189,95254,Suspect_Group_File189,Matches File189 (ZIP archive)
+C:\Users\win11user\Desktop\File\File190,1799942,Suspect_Group_File190,Matches File190 (PNG)
+C:\Users\win11user\Desktop\File\File191,148835,Suspect_Group_File191,Matches File191 (ZIP archive)
+C:\Users\win11user\Desktop\File\File192,319563,Suspect_Group_File192,Matches File192 (MZ truncated?)
+C:\Users\win11user\Desktop\File\File193,466915,Suspect_Group_File193,Matches File193 (ZIP archive)
+C:\Users\win11user\Desktop\File\File194,1641870,Suspect_Group_File194,Matches File194 (ZIP archive)
+C:\Users\win11user\Desktop\File\File195,87316,Suspect_Group_File195,Matches File195 (ZIP archive)
+C:\Users\win11user\Desktop\File\File196,1379663,Suspect_Group_File196,Matches File196 (ZIP archive)
+C:\Users\win11user\Desktop\File\File198,10412619,Suspect_Group_File198,Matches File198 (ZIP archive - .rels)
+C:\Users\win11user\Desktop\File\File199,266057,Suspect_Group_File199,Matches File199 (PDF)
+C:\Users\win11user\Desktop\File\File200,1543898,Suspect_Group_File200,Matches File200 (PNG)
+C:\Users\win11user\Desktop\File\File201,867014,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File202,1204734,Suspect_Group_File202,Matches File202 (B? variant)
+C:\Users\win11user\Desktop\File\File203,781,Suspect_Group_File203,Matches File203
+C:\Users\win11user\Desktop\File\File204,681,Suspect_Group_File204,Matches File204
+C:\Users\win11user\Desktop\File\File205,169050,Suspect_Group_File205,Matches File205 (JPEG)
+C:\Users\win11user\Desktop\File\File206,209333,Suspect_Group_File206,Matches File206 (ZIP archive)
+C:\Users\win11user\Desktop\File\File207,726251,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File208,3060289,Suspect_Group_File208,Matches File208 (ZIP archive)
+C:\Users\win11user\Desktop\File\File209,202653,Suspect_Group_File209,Matches File209 (PDF)
+C:\Users\win11user\Desktop\File\File210,184563,Suspect_Group_File210,Matches File210 (ZIP archive - docProps)
+C:\Users\win11user\Desktop\File\File211,458026,Suspect_Group_File211,Matches File211 (ZIP archive - Excel presentation)
+C:\Users\win11user\Desktop\File\File212,182,Suspect_Group_File212,Matches File212
+C:\Users\win11user\Desktop\File\File213,66043,Suspect_Group_PE_DOS_Stub,Matches multiple PE files with standard DOS stub
+C:\Users\win11user\Desktop\File\File214,166868,Suspect_Group_File214,Matches File214 (JPEG)
+C:\Users\win11user\Desktop\File\File215,643,Suspect_Group_File215,Matches File215
+C:\Users\win11user\Desktop\File\File216,628,Suspect_Group_File216,Matches File216
+C:\Users\win11user\Desktop\File\File217,14118,Suspect_Group_File217,Matches File217
+C:\Users\win11user\Desktop\File\File218,1394042,Suspect_Group_File218,Matches File218 (PNG)
+C:\Users\win11user\Desktop\File\File219,127189,Suspect_Group_File219,Matches File219 (JPEG with EXIF)
+C:\Users\win11user\Desktop\File\File220,191,Suspect_Group_File220,Matches File220
