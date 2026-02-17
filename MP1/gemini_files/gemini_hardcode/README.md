@@ -1,81 +1,69 @@
 ---
 
-# Gemini YARA Scanner
+# Gemini Static Signature Scanner
 
-A lightweight, high-performance Python script designed to scan local directories or entire drives (like `E:\` or `C:\`) using **YARA rules**. It identifies malicious or interesting files based on your custom rule sets and exports the findings into a structured CSV report.
+This is a specialized, high-speed YARA scanner designed to identify specific files that match **hardcoded** criteria. Unlike general malware scanners that look for patterns, this version is optimized to find exact files based on their metadata and static byte signatures.
 
-* **Namespace-Based Matching:** Uses the filename of each `.yar` file as a namespace, making it easy to identify which rule source triggered a detection.
-* **Performance Optimized:** Includes a "Fast Discovery Phase" that indexes file metadata before scanning to handle large volumes of files efficiently.
-* **Progress Tracking:** Uses `tqdm` to provide a real-time progress bar and estimated time remaining during the scan.
-* **Forensic Metadata:** Automatically extracts and logs the **first 50 bytes (Hex)** of any flagged file for quick signature verification.
-* **Safe Handling:** Respects file size limits (default 100MB) and gracefully skips system locks or permission errors.
+## 🔍 How It Works
+
+The scanner uses a two-stage detection process to maximize speed:
+
+1. **Size Pre-Filtering:** The script parses your `file_sigs.yar` file and extracts every `filesize == X` condition. Before running the YARA engine, it checks the size of every file on your disk. If the size doesn't match a rule exactly, the file is skipped instantly.
+2. **Signature Matching:** For files that pass the size check, the script performs a deep scan for the specific byte sequences (hex) and external variables (like filenames) defined in your rules.
 
 ---
 
-## 🛠️ Setup & Installation
+## 🛠️ Configuration
 
-### 1. Prerequisites
+Edit these variables in the script to point to your target:
 
-Ensure you have Python 3.x installed. You will also need the `yara-python` and `tqdm` libraries.
+* `TARGET_PATH`: The directory to scan (e.g., `r'C:\Program Files (x86)'`).
+* `RULES_FILE`: The path to your `.yar` signature file.
+* `MAX_FILE_SIZE`: A safety cap to prevent the script from hanging on massive files.
 
+---
+
+## ⚠️ The "Hardcoded" Limitation (Fragility)
+
+This scanner is designed for **exact-match integrity checking**. Because the rules are strictly defined, the detection is easily broken by any modification to the target file:
+
+### 1. Changing the Filename
+
+If a rule relies on the `filename` external variable (e.g., matching a regex like `File\d{3}`), simply renaming `File123.dat` to `Data123.dat` will cause the rule to fail.
+
+### 2. Modifying the First 50 Bytes
+
+Most file signatures (magic bytes) reside at the very beginning of the file.
+
+* **The Break:** If a rule looks for a specific hex string in the first 50 bytes, changing even **one single byte** (e.g., changing `4D 5A` to `4D 5B`) will result in a "No Match."
+* **The Result:** The file will be completely ignored by the scanner, even if the rest of the file content remains malicious or relevant.
+
+### 3. Altering File Size
+
+Since this version uses a **size pre-filter**, if a file is modified in a way that adds or removes even one byte of data, the script will skip it during the "Fast Discovery Phase" before the YARA engine even looks at it.
+
+---
+
+## 🚀 Installation & Execution
+
+1. **Install dependencies:**
 ```bash
 pip install yara-python tqdm
 
 ```
 
-### 2. Directory Structure
 
-Place your script in a folder alongside a directory containing your YARA rules:
-
-```text
-📂 Project Folder
- ├── scanner.py             # The script provided
- ├── 📂 scanner_rules       # Put your .yar or .yara files here
- │    ├── malware_set1.yar
- │    └── obfuscation_rules.yar
- └── gemini_scan_results.csv # (Generated after scan)
-
-```
-
----
-
-## ⚙️ Configuration
-
-You can modify the following variables directly in the `# ================= CONFIGURATION =================` section of the script:
-
-| Variable | Description |
-| --- | --- |
-| `TARGET_PATH` | The drive or folder you want to scan (e.g., `'E:\'` or `'C:\Users'`). |
-| `RULES_DIR` | The folder where your `.yar` files are stored. |
-| `MAX_FILE_SIZE` | Files larger than this (in bytes) will be skipped to save time. |
-| `SKIP_NO_EXTENSION` | Set to `True` to ignore files that do not have a file extension. |
-
----
-
-## 📈 Usage
-
-1. Open your terminal or command prompt.
-2. **Note:** If scanning system drives (like `C:\`), run the terminal as **Administrator**.
-3. Execute the script:
+2. **Run with Elevation:**
+To scan protected directories like `C:\Program Files (x86)`, run your terminal as **Administrator**:
 ```bash
-python scanner.py
+python scanner_static.py
 
 ```
 
 
 
-### Output
-
-The script generates `gemini_scan_results.csv` with the following columns:
-
-* **File Location:** The directory path where the file was found.
-* **Filename:** The name of the detected file.
-* **YARA Rule Hit:** The specific rule file (namespace) that triggered the alert.
-* **First 50 Bytes:** The hex header of the file for manual analysis.
-
 ---
 
-## ⚠️ Important Considerations
+## 📊 Output
 
-* **Permissions:** Running without Administrator privileges may result in many "Permission Denied" errors when scanning system-protected folders.
-* **Large Drives:** Scanning a full `C:\` drive can take significant time depending on your disk speed (SSD vs HDD) and the number of rules compiled.
+Matches are saved to `gemini_scan_results.csv`, providing the exact path, size, and the specific rule/description triggered.
