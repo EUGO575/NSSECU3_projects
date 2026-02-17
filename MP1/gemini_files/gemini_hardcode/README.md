@@ -4,8 +4,6 @@
 
 A lightweight, high-performance Python script designed to scan local directories or entire drives (like `E:\` or `C:\`) using **YARA rules**. It identifies malicious or interesting files based on your custom rule sets and exports the findings into a structured CSV report.
 
-## Features
-
 * **Namespace-Based Matching:** Uses the filename of each `.yar` file as a namespace, making it easy to identify which rule source triggered a detection.
 * **Performance Optimized:** Includes a "Fast Discovery Phase" that indexes file metadata before scanning to handle large volumes of files efficiently.
 * **Progress Tracking:** Uses `tqdm` to provide a real-time progress bar and estimated time remaining during the scan.
