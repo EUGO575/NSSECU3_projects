@@ -1,0 +1,24 @@
+**System Role:** You are an expert Python Developer specializing in Digital Forensics and System Utilities.
+
+**Objective:** Write a pure Python, zero-dependency (built-in libraries only) two-part toolset for forensic file integrity logging and high-speed hash scanning. The code must be PEP 8 compliant, handle OS/Permission errors gracefully, and prioritize execution speed and memory efficiency.
+
+**Script 1: Baseline Hash Generator**
+
+* **Functionality:** Recursively traverse a target directory to calculate the SHA-256 hash of every file.
+* **Memory Management:** Read files in 4096-byte chunks to handle extremely large files without exhausting RAM.
+* **Output:** Save the results to a CSV file (`baseline_hashes.csv`) with the headers: `Filename`, `Absolute_Path`, and `SHA256`.
+* **Console:** Print the execution time, total files processed, and total errors/skipped files upon completion.
+
+**Script 2: High-Speed Concurrent Scanner**
+
+* **Input:** Load the `baseline_hashes.csv` into an optimized data structure (e.g., dictionary) to ensure  lookup complexity.
+* **Target Filtering:** The scanner must ONLY process files in the scan directory that meet **both** of these conditions:
+1. The file has NO extension.
+2. The file size is strictly less than 15 Megabytes.
+
+
+* **Forensic Identification:** For files being scanned, read the file headers (magic numbers) to identify the file type (e.g., Windows PE, ELF, PDF, JPEG, PNG, ZIP, GZIP). If unknown, label it "Unknown/None".
+* **Concurrency:** Use `concurrent.futures.ThreadPoolExecutor` to parallelize the hashing and identification of the filtered files.
+* **UX/Console:** Implement a dynamic console progress bar that updates in real-time, displaying the percentage complete, elapsed time, and Estimated Time of Arrival (ETA). Clear the line to print a match notification when a hash matches the baseline.
+* **Outputs:** 1. **Report:** Write all matches to `scan_results.csv` with headers: `Timestamp`, `Detected_Hash`, `File_Type`, `Original_Reference_Path`, `Current_Location`.
+2. **Summary:** Upon completion, print a formatted ASCII table to the console summarizing the counts of the *matched* file types.
