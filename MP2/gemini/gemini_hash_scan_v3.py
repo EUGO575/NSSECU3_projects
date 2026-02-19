@@ -85,7 +85,6 @@ def scan_directory_concurrently(scan_dir, reference_db, output_report):
     
     detected_matches = []
     files_to_scan = []
-    # This will now only track filetypes of MATCHED files
     type_counts = {} 
     SIZE_LIMIT = 15 * 1024 * 1024 
 
@@ -120,7 +119,6 @@ def scan_directory_concurrently(scan_dir, reference_db, output_report):
             
             if not err:
                 if h_hash in reference_db:
-                    # UPDATED: Increment count ONLY if it exists in the baseline
                     type_counts[f_type] = type_counts.get(f_type, 0) + 1
                     
                     sys.stdout.write('\r' + ' ' * 100 + '\r') 
@@ -137,6 +135,9 @@ def scan_directory_concurrently(scan_dir, reference_db, output_report):
             processed += 1
             print_progress_bar(processed, total_files, start_time, prefix='Scanning:')
 
+    end_time = time.time()
+    total_elapsed = str(datetime.timedelta(seconds=int(end_time - start_time)))
+
     # 3. Report Generation
     if detected_matches:
         with open(output_report, 'w', newline='', encoding='utf-8') as f:
@@ -146,7 +147,6 @@ def scan_directory_concurrently(scan_dir, reference_db, output_report):
             writer.writerows(detected_matches)
         print(f"\n[+] Found {len(detected_matches)} matches. Saved to {output_report}")
         
-        # Print the Filetype Summary Table only if matches were found
         print("\n" + "="*45)
         print(f"{'Matched Filetype Summary':^45}")
         print("="*45)
@@ -154,13 +154,18 @@ def scan_directory_concurrently(scan_dir, reference_db, output_report):
         print("-" * 45)
         for ftype in sorted(type_counts, key=type_counts.get, reverse=True):
             print(f"{ftype:<30} | {type_counts[ftype]:<10}")
-        print("="*45 + "\n")
+        print("="*45)
     else:
         print("\n[+] Scan finished. No matches found.")
 
+    # --- NEW: Final Execution Summary ---
+    print(f"[*] Total Scan Time: {total_elapsed}")
+    print(f"[*] Total Files Processed: {total_files}")
+    print("="*45 + "\n")
+
 if __name__ == "__main__":
     BASELINE_CSV = "baseline_hashes.csv"
-    SCAN_TARGET_DIR = r"C:\Users\Vigilante"  
+    SCAN_TARGET_DIR = "E:"  
     REPORT_FILE = "scan_results.csv"
 
     db = load_baseline(BASELINE_CSV)

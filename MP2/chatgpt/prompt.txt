@@ -22,3 +22,6 @@
 * **UX/Console:** Implement a dynamic console progress bar that updates in real-time, displaying the percentage complete, elapsed time, and Estimated Time of Arrival (ETA). Clear the line to print a match notification when a hash matches the baseline.
 * **Outputs:** 1. **Report:** Write all matches to `scan_results.csv` with headers: `Timestamp`, `Detected_Hash`, `File_Type`, `Original_Reference_Path`, `Current_Location`.
 2. **Summary:** Upon completion, print a formatted ASCII table to the console summarizing the counts of the *matched* file types.
+
+python gpt_hash_gen_v1.py "C:\Users\Vigilante\Desktop\File" --output baseline_hashes.csv
+python gpt_hash_scan_v1.py "C:\Users\Vigilante"
