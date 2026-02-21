@@ -1,1 +1,3 @@
 test gpt5.2, check if it fits requirements. Change the file headers of the files and see if it makes a difference.
+to run:
+py file_scanner.py --scan-root <your directory>
